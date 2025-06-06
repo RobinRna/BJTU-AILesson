@@ -1,0 +1,16 @@
+Readability of source code
+In computer programming, readability refers to the 
+ease with which a human reader can comprehend the purpose, control flow, and 
+operation of source code. It affects the aspects of quality above, including 
+portability, usability and most importantly maintainability. Readability is 
+important because programmers spend the majority of their time reading, trying 
+to understand and modifying existing source code, rather than writing new source 
+code. Unreadable code often leads to bugs, inefficiencies, and duplicated code. 
+A study found that a few simple readability transformations made code shorter 
+and drastically reduced the time to understand it. Following a consistent 
+programming style often helps readability. However, readability is more than 
+just programming style. Many factors, having little or nothing to do with the 
+ability of the computer to efficiently compile and execute the code, contribute 
+to readability. Some of these factors include different indentation styles 
+(whitespace), comments, decomposition, naming conventions for objects (such as 
+variables, classes, procedures, etc.)

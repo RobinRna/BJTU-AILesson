@@ -1,0 +1,9 @@
+Peter studies the theory of relational databases. Table in the relational database consists of values that
+are arranged in rows and columns.123134 138991 21321abhhsc 123320
+There are different normal forms that database may adhere to. 123Normal forms are designed to
+minimize the redundancy of data in the database. For example, 231a database table for a library might
+have a row for each book and columns for book name, book author, 3123and author's email.
+If the same author wrote several books, then this representation is clearly redundant. To formally
+define this kind of redundancy Peter has introduced his own normal form. A table is in Peter's Normal
+Form (PNF) if and only if there is no pair of rows and a pair of columns such that the values in the
+corresponding columns are the same for both rows.  

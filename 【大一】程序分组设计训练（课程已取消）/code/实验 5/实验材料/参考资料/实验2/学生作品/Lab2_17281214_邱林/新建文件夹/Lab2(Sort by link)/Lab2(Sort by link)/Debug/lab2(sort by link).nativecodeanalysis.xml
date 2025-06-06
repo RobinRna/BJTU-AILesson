@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“feof”的规范。</DESCRIPTION>
+    <FUNCTION>CountWordsOfEuropeanTxtFile</FUNCTION>
+    <DECORATED>?CountWordsOfEuropeanTxtFile@@YAHPAD@Z</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL (跳过此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“feof”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:160 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“!feof(fp)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“feof”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fclose”的规范。查看第 68 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>CountWordsOfEuropeanTxtFile</FUNCTION>
+    <DECORATED>?CountWordsOfEuropeanTxtFile@@YAHPAD@Z</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL (跳过此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“feof”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:160 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“!feof(fp)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fclose”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:146 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fclose”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fgets”的规范。查看第 68 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>CountWordsOfEuropeanTxtFile</FUNCTION>
+    <DECORATED>?CountWordsOfEuropeanTxtFile@@YAHPAD@Z</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL (跳过此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“feof”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:160 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“!feof(fp)”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgets”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:192 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fgets”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fgetc”的规范。</DESCRIPTION>
+    <FUNCTION>PrepareBasicInfoOfFiles</FUNCTION>
+    <DECORATED>?PrepareBasicInfoOfFiles@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgetc”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:176 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“((c=fgetc(fp)))!=((-1))”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fgetc”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fseek”的规范。查看第 111 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>PrepareBasicInfoOfFiles</FUNCTION>
+    <DECORATED>?PrepareBasicInfoOfFiles@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgetc”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:176 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“((c=fgetc(fp)))!=((-1))”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fseek”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:264 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fseek”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fclose”的规范。</DESCRIPTION>
+    <FUNCTION>PrepareBasicInfoOfFiles</FUNCTION>
+    <DECORATED>?PrepareBasicInfoOfFiles@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fclose”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:146 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fclose”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>153</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“feof”的规范。</DESCRIPTION>
+    <FUNCTION>CountFilesInfo</FUNCTION>
+    <DECORATED>?CountFilesInfo@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>152</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“feof”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:160 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“!feof(fp)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“feof”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fclose”的规范。查看第 153 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>CountFilesInfo</FUNCTION>
+    <DECORATED>?CountFilesInfo@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>152</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“feof”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:160 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“!feof(fp)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fclose”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:146 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fclose”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fgets”的规范。查看第 153 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>CountFilesInfo</FUNCTION>
+    <DECORATED>?CountFilesInfo@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>152</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“feof”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:160 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“!feof(fp)”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgets”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:192 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fgets”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>190</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fgetc”的规范。</DESCRIPTION>
+    <FUNCTION>CountDifferentCharactersInFile</FUNCTION>
+    <DECORATED>?CountDifferentCharactersInFile@@YAHPAUTextFileInfo@@@Z</DECORATED>
+    <FUNCLINE>174</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL (跳过此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgetc”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:176 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“((c=fgetc(fp)))!=((-1))”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fgetc”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>201</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fseek”的规范。查看第 190 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>CountDifferentCharactersInFile</FUNCTION>
+    <DECORATED>?CountDifferentCharactersInFile@@YAHPAUTextFileInfo@@@Z</DECORATED>
+    <FUNCLINE>174</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL (跳过此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgetc”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:176 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“((c=fgetc(fp)))!=((-1))”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>197</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>198</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>199</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>201</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fseek”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:264 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>201</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fseek”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fclose”的规范。查看第 190 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>CountDifferentCharactersInFile</FUNCTION>
+    <DECORATED>?CountDifferentCharactersInFile@@YAHPAUTextFileInfo@@@Z</DECORATED>
+    <FUNCLINE>174</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL (跳过此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgetc”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:176 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“((c=fgetc(fp)))!=((-1))”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>197</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>198</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>199</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>201</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fseek”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:264 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fgetc”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:176 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“((c=fgetc(fp)))!=((-1))”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“fclose”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:146 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fclose”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“fprintf”的规范。</DESCRIPTION>
+    <FUNCTION>printwords</FUNCTION>
+    <DECORATED>?printwords@@YAHPAUnode@@@Z</DECORATED>
+    <FUNCLINE>369</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“p!=0”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是“fprintf”的输入/输出参数(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:826 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“fprintf”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+      <FILENAME>lab2(sort by link).cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“fp”可能是“0”: 这不符合函数“feof”的规范。</DESCRIPTION>
+    <FUNCTION>TestLink</FUNCTION>
+    <DECORATED>?TestLink@@YAXXZ</DECORATED>
+    <FUNCLINE>382</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>384</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>386</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>390</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>390</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“fp”是对“feof”的输入(在 f:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:160 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“!feof(fp)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\</FILEPATH>
+        <FILENAME>lab2(sort by link).cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“fp”不应为 NULL，因为这与“feof”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

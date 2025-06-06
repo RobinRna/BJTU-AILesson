@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  list.cpp
+c:\users\lenovo\source\repos\lab2\lab2\list.cpp(87): warning C6386: 写入到“*Map”时缓冲区溢出: 可写大小为“mylist->number*sizeof(Node *)”个字节，但可能写入了“8”个字节。
+c:\users\lenovo\source\repos\lab2\lab2\list.cpp(87): warning C6011: 取消对 NULL 指针“*Map”的引用。

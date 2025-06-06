@@ -1,0 +1,5 @@
+﻿  Lab2(Sort by link).cpp
+g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\lab2(sort by link).cpp(358): warning C4101: “t”: 未引用的局部变量
+g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\lab2(sort by link).cpp(415): warning C4101: “j”: 未引用的局部变量
+g:\学习\visual stdio2017 projects\lab2(sort by link)\lab2(sort by link)\lab2(sort by link).cpp(37): warning C4172: 返回局部变量或临时变量的地址: name
+  Lab2(Sort by link).vcxproj -> G:\学习\Visual Stdio2017 Projects\Lab2(Sort by link)\Debug\Lab2(Sort by link).exe

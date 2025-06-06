@@ -1,0 +1,5 @@
+	This is my 1st time to hear something about data mining.
+    Data   mining   is the process of extracting patterns from data. 
+Data mining is seen as an increasingly important tool by modern business to transform data into business intelligence giving an informational advantage. 
+It is currently used in a wide range of profiling practices, 
+such as marketing, surveillance, fraud detection, and scientific discovery.

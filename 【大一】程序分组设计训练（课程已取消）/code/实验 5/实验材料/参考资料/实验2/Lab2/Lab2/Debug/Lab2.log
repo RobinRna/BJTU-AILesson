@@ -1,0 +1,17 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  CodeForLab2.cpp
+e:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\lab2\lab2\codeforlab2.cpp(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+e:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\lab2\lab2\codeforlab2.cpp(180): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\lab2\lab2\codeforlab2.cpp(198): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\lab2\lab2\codeforlab2.cpp(257): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+e:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\lab2\lab2\codeforlab2.cpp(306): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+e:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\lab2\lab2\codeforlab2.cpp(397): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: 参见“strcat”的声明
+e:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\lab2\lab2\codeforlab2.cpp(398): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: 参见“strcat”的声明
+  Lab2.vcxproj -> E:\work\2016年3月回国后\教学\本科生\程序设计基础训练(2018.2~7)\课程实验材料for教师\实验2\Lab2\Debug\Lab2.exe

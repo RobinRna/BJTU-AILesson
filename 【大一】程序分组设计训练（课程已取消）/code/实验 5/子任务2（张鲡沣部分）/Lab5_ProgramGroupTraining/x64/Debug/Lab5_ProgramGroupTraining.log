@@ -1,0 +1,3 @@
+﻿  Lab5_checkfile.cpp
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_5_Experiments\Lab5_ProgramGroupTraining\Lab5_checkfile.cpp(73,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Lab5_ProgramGroupTraining.vcxproj -> D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_5_Experiments\Lab5_ProgramGroupTraining\x64\Debug\Lab5_ProgramGroupTraining.exe

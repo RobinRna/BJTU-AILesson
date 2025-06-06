@@ -1,0 +1,15 @@
+﻿  Lab4_loadfile.cpp
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.h(1,1): warning C4828: 文件包含在偏移 0x3a4 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(83,38): warning C4474: fscanf: 格式字符串中传递的参数太多
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(83,38): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(170,38): warning C4474: fscanf: 格式字符串中传递的参数太多
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(170,38): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(214,37): warning C4474: fscanf: 格式字符串中传递的参数太多
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(214,37): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(215,37): warning C4474: fscanf: 格式字符串中传递的参数太多
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(215,37): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(264,38): warning C4474: fscanf: 格式字符串中传递的参数太多
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(264,38): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(376,38): warning C4474: fscanf: 格式字符串中传递的参数太多
+D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\Lab4_loadfile.cpp(376,38): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  Lab4_ProgramGroupTraining.vcxproj -> D:\Learning_ComputerLanguages\learning_language_c\_2_ProgramGroupTraining\_4_Experiments\Lab4_ProgramGroupTraining\x64\Debug\Lab4_ProgramGroupTraining.exe
